@@ -1,0 +1,41 @@
+GUÍA 8 - APP SUPER COMPLETA
+
+¿QUÉ HACE ESTA APLICACIÓN?
+1. Genera tres archivos CSV de ventas sintéticas: 10.000, 100.000 y 500.000 registros.
+2. Ejecuta el procesamiento secuencial y paralelo (simulado localmente con varios procesos).
+3. Valida que los resultados coincidan.
+4. Guarda los resultados en CSV y JSON.
+5. Genera automáticamente 5 gráficas en PNG a partir de los datos obtenidos.
+
+ARCHIVOS PRINCIPALES
+- codigo/generar_datos.py
+- codigo/procesar.py
+
+CÓMO EJECUTARLA
+1. Abre esta carpeta en VS Code.
+2. Abre una terminal.
+3. Ejecuta:
+   python codigo/generar_datos.py
+4. Después ejecuta:
+   python codigo/procesar.py --procesos 3
+
+¿QUÉ SE CREA AUTOMÁTICAMENTE?
+- Carpeta datos/ con los CSV de ventas.
+- Carpeta resultados/ con:
+  * comparativa_tiempos.csv
+  * ingresos_ciudad.csv
+  * ingresos_mensuales.csv
+  * productos_top5.csv
+  * resultados_completos.json
+- Carpeta graficas/ con:
+  * 01_ingresos_por_ciudad.png
+  * 02_top5_productos.png
+  * 03_ingresos_mensuales.png
+  * 04_comparacion_tiempos.png
+  * 05_aceleracion.png
+
+IMPORTANTE
+- Es una simulación de procesamiento paralelo local, no un clúster de varias máquinas.
+- Los tiempos pueden cambiar cada vez que ejecutes la app, por eso las gráficas se vuelven a generar con tus tiempos actuales.
+- Si tu Python no tiene matplotlib, instala con:
+  pip install matplotlib

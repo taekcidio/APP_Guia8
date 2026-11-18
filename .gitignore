@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+datos/ventas_100000.csv
+datos/ventas_500000.csv

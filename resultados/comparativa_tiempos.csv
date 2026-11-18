@@ -1,0 +1,4 @@
+registros,procesos,tiempo_secuencial_s,tiempo_paralelo_s,aceleracion,verificacion
+10000,3,0.05882,1.15595,0.0509,COINCIDEN
+100000,3,0.54497,1.9855,0.2745,COINCIDEN
+500000,3,1.20866,2.17595,0.5555,COINCIDEN

@@ -1,0 +1,122 @@
+[
+  {
+    "archivo": "ventas_10000.csv",
+    "registros": 10000,
+    "procesos": 3,
+    "tiempo_secuencial_s": 0.05882,
+    "tiempo_paralelo_s": 1.15595,
+    "aceleracion": 0.0509,
+    "verificacion": "COINCIDEN",
+    "ingresos_por_ciudad": {
+      "Barranquilla": 5518990000,
+      "Bogotá": 5633125000,
+      "Bucaramanga": 5408770000,
+      "Cali": 5438200000,
+      "Medellín": 5617810000,
+      "Pereira": 5421070000
+    },
+    "top_5_productos_por_unidades": {
+      "Portátil": 5903,
+      "Mouse": 5829,
+      "Cámara": 5802,
+      "Impresora": 5714,
+      "Audífonos": 5587
+    },
+    "ingresos_por_mes": {
+      "2025-01": 2957765000,
+      "2025-02": 2478125000,
+      "2025-03": 2669845000,
+      "2025-04": 3045010000,
+      "2025-05": 2557900000,
+      "2025-06": 2811190000,
+      "2025-07": 2847100000,
+      "2025-08": 2771980000,
+      "2025-09": 2704715000,
+      "2025-10": 2690180000,
+      "2025-11": 2700820000,
+      "2025-12": 2803335000
+    },
+    "ingresos_totales": 33037965000,
+    "unidades_totales": 45201
+  },
+  {
+    "archivo": "ventas_100000.csv",
+    "registros": 100000,
+    "procesos": 3,
+    "tiempo_secuencial_s": 0.54497,
+    "tiempo_paralelo_s": 1.9855,
+    "aceleracion": 0.2745,
+    "verificacion": "COINCIDEN",
+    "ingresos_por_ciudad": {
+      "Barranquilla": 54912985000,
+      "Bogotá": 54413720000,
+      "Bucaramanga": 53429870000,
+      "Cali": 53262040000,
+      "Medellín": 54685435000,
+      "Pereira": 54152720000
+    },
+    "top_5_productos_por_unidades": {
+      "Cámara": 57512,
+      "Audífonos": 57049,
+      "Teclado": 56801,
+      "Mouse": 56669,
+      "Monitor": 56246
+    },
+    "ingresos_por_mes": {
+      "2025-01": 28504245000,
+      "2025-02": 24820820000,
+      "2025-03": 27231025000,
+      "2025-04": 26519615000,
+      "2025-05": 27429780000,
+      "2025-06": 27868495000,
+      "2025-07": 27407465000,
+      "2025-08": 27461720000,
+      "2025-09": 26581605000,
+      "2025-10": 27534830000,
+      "2025-11": 26127025000,
+      "2025-12": 27370145000
+    },
+    "ingresos_totales": 324856770000,
+    "unidades_totales": 451535
+  },
+  {
+    "archivo": "ventas_500000.csv",
+    "registros": 500000,
+    "procesos": 3,
+    "tiempo_secuencial_s": 1.20866,
+    "tiempo_paralelo_s": 2.17595,
+    "aceleracion": 0.5555,
+    "verificacion": "COINCIDEN",
+    "ingresos_por_ciudad": {
+      "Barranquilla": 273294140000,
+      "Bogotá": 270677560000,
+      "Bucaramanga": 271559125000,
+      "Cali": 268587625000,
+      "Medellín": 272712240000,
+      "Pereira": 271521975000
+    },
+    "top_5_productos_por_unidades": {
+      "Cámara": 283504,
+      "Mouse": 282599,
+      "Portátil": 282505,
+      "Audífonos": 281895,
+      "Teclado": 281810
+    },
+    "ingresos_por_mes": {
+      "2025-01": 141155740000,
+      "2025-02": 123828600000,
+      "2025-03": 136895120000,
+      "2025-04": 133247620000,
+      "2025-05": 138186640000,
+      "2025-06": 135997480000,
+      "2025-07": 136407135000,
+      "2025-08": 138105845000,
+      "2025-09": 134407570000,
+      "2025-10": 138132090000,
+      "2025-11": 133191185000,
+      "2025-12": 138797640000
+    },
+    "ingresos_totales": 1628352665000,
+    "unidades_totales": 2251969
+  }
+]
